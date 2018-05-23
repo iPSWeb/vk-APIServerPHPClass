@@ -5,7 +5,7 @@
  * Author Site URL: https://psweb.ru | https://psweb.by
  */
 
-require ('classes/vkapi.class.php');
+require ('vkapi.class.php');
 $api_id = '1111111'; //ID приложения | ID APP
 $secret_key = 'secret_key'; // секретный ключ | Secret Key
 $owner_id = '-11111111'; //идентификатор владельца Like-объекта: id пользователя, id сообщества (со знаком «минус») или id приложения.
