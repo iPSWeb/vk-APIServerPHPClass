@@ -11,7 +11,7 @@ $secret_key = 'secret_key'; // секретный ключ | Secret Key
 $owner_id = '-11111111'; //идентификатор владельца Like-объекта: id пользователя, id сообщества (со знаком «минус») или id приложения.
 $post_id = '11111';//идентификатор поста. в ссылке на пост крайние цифры после знака "_"
 
-$VK = new vkapi($api_id, $secret_key);//создаем объект класса vkapi | create an object of class vkapi
+$VK = new vkapi($api_id, $secret_key);//создаем экземпляр класса vkapi | create an instance of the vkapi class
 $resp = $VK->api('likes.getList',//используем метод likes.getList
         array(
             'type' => 'post',// тип объекта - запись
