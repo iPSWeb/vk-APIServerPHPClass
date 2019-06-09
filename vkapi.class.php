@@ -5,7 +5,7 @@
  *
  * @package server API methods
  * @link http://vk.com/developers.php
- * @autor Oleg Illarionov
+ * @autor Sergey Pliskin
  * @version 1.0
  */
  
